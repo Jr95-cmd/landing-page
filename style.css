@@ -1,0 +1,97 @@
+/*background color for top page */
+.pageheader{
+    background-color:#1f2937;
+}
+
+/*heading text format*/
+.heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+/*heading sub-text format */
+.headtext,a{
+    font-size: 18px;
+    color: #E5E7Eb
+}
+
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+    margin-top:auto;
+    
+}
+
+button{
+    color:#3882f6;
+}
+
+.infoheader{
+    font-size:36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+.bottompage{
+    background-color:#e5e7eb;
+    font-style:italic;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 300;
+}
+
+.main{
+    width:250px;
+    height:auto;
+}
+
+.hobbie{
+    width:100px;
+    height:auto;
+    
+    border:3px solid deepskyblue;
+    border-radius: 10px;
+}
+
+/*.pageheader{
+    display:flex;
+}*/
+
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.description{
+    text-align:center;
+    flex:1 1 0;
+}
+
+
+.hobbieimg
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom:50px;
+}
+
+.midheading{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+
+.caption{
+    display:flex;
+    justify-content: space-evenly
+}
+
+.webheader{
+    display:flex;
+    justify-content: space-evenly;
+}
+
