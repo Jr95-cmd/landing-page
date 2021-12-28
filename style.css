@@ -1,6 +1,7 @@
 /*background color for top page */
 .pageheader{
     background-color:#1f2937;
+    padding-bottom:40px;
 }
 
 /*heading text format*/
@@ -26,6 +27,7 @@
 button{
     background-color:#008CBA;
     border-radius:12px;
+    color:#FFFFFF
 }
 
 .infoheader{
