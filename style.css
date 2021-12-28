@@ -24,7 +24,8 @@
 }
 
 button{
-    color:#3882f6;
+    background-color:#008CBA;
+    border-radius:12px;
 }
 
 .infoheader{
