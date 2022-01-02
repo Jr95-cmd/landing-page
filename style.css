@@ -21,14 +21,18 @@
     font-size: 24px;
     color:#f9faf8;
     margin-top:auto;
-    
+    display:flex;
+    justify-content:start;
+    padding-top:20px;
 }
 
-button{
-    background-color:#008CBA;
-    border-radius:5px;
-    color:#FFFFFF
-    font-size:20px;
+button {
+    background-color: #008CBA;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
 }
 
 .infoheader{
@@ -64,7 +68,7 @@ button{
 
 .nav{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .description{
@@ -99,7 +103,43 @@ button{
     justify-content: space-evenly;
 }
 
+.footer{
+    display:flex;
+    justify-content:center;
+    padding-bottom:50px;
+}
+
 .bottom-button{
-    background-color:#1E90FF;
-    padding: 20px 20px 20px 20px;
+    border:2px solid white;
+    font-size:20px;
+    width:200px;
+    height:50px;
+    margin-top:40px;
+    
+}
+
+.rectangle{
+    background-color:Highlight;
+    padding: 50px 600px;
+    border-radius:5px;
+    display:flex;
+    flex-shrink:0;
+}
+
+.button-instruction{
+    color:white;
+    font-size: 40px;
+    word-wrap:break-word;
+    margin-right:30px;
+
+}
+
+.links{
+    display:flex;
+    gap:normal;
+}
+
+a{
+    margin-right:50px;
+    padding:20px;
 }
